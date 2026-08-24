@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 6px;
+            box-sizing: border-box;
+        }
+
+        .gender {
+            width: auto;
+        }
+
+        .btn {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form>
+    <table>
+
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" placeholder="Enter Name">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Roll No</td>
+            <td>
+                <input type="text" placeholder="Enter Roll No">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" placeholder="Enter Email">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Password</td>
+            <td>
+                <input type="password" placeholder="Enter Password">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" class="gender"> Male
+                <input type="radio" name="gender" class="gender"> Female
+            </td>
+        </tr>
+
+        <tr>
+            <td>Department</td>
+            <td>
+                <select>
+                    <option>CSE</option>
+                    <option>IT</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>MECH</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Address</td>
+            <td>
+                <textarea rows="4" placeholder="Enter Address"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Phone</td>
+            <td>
+                <input type="tel" placeholder="Enter Phone Number">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Register" class="btn">
+                <input type="reset" value="Clear" class="btn">
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+</body>
+</html>
